@@ -12,10 +12,10 @@ import java.util.Arrays;
 @SpringBootApplication
 public class App {
 
-    //@Autowired
+    @Autowired
     private ExtractorService extractorService;
 
-    //@PostConstruct
+    @PostConstruct
     public void execute() {
         Extractor extractor1 = this.extractorService.getExtractor(Arrays.asList("a", "b"));
 
