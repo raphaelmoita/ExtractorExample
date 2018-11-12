@@ -1,4 +1,4 @@
-package com.ph.stateless.ppnr.util;
+package com.ph.stateless.finance.util;
 
 import java.util.Iterator;
 
